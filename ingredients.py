@@ -6,7 +6,7 @@ import openai
 st.header(':knife_fork_plate:  :orange[Substituted Ingredients]')
 
 
-openai.api_key = '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'
+openai.api_key = 'OPEN-AI-KEY'
 st.sidebar.header(':fork_and_knife: :blue[Add Your Ingredients Here]')
 
 options = st.sidebar.multiselect(
